@@ -1,0 +1,25 @@
+# Bash bomb (linux)
+
+    :(){ :|:&};:
+
+## Description 
+
+Permet de faire ralentir l'ordinateur en créant des shell à l'infini qui eux même crée des nouveau shell. 
+
+### Piqure de rappel 
+
+#### Déclaration fonction 
+    function_name():{
+        <code>
+    } 
+
+#### Fonctionnement 
+
+    :(){ :|:&};:
+
+    function_name = : 
+    code = appel moi, et pipe moi dans un nouveau shell 
+
+    ; = fin de l'instruction
+
+    : = call :
