@@ -50,3 +50,11 @@ https://linux.die.net/man/1/exiftool
 ## Description
 
 Permet de lire/écrire des metas données dans un fichier
+
+# Secret Messages
+
+https://holloway.nz/steg/
+
+## Description
+
+Permet de mettre des caractères spécial dans un message pour cacher des informations dans un texte 
